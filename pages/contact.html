@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoTrak - Contact</title>
+    <link rel="stylesheet" href="./../style.css">
+
+
+    <style>
+
+        .page {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .page h1 {
+            color: #176b3a;
+            font-size: 40px;
+        }
+
+        .page > p {
+            font-size: 18px;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .contact-image {
+            width: 350px;
+            height: 300px;
+            object-fit: contain;
+        }
+
+        .contact-box {
+            width: 500px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .contact-box h2 {
+            color: #176b3a;
+        }
+
+        .contact-box p {
+            line-height: 1.7;
+        }
+        .contact-box input,
+        .contact-box textarea {
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        .contact-box button {
+            background-color: #176b3a;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .contact-box button:hover {
+            background-color: #0d4525;
+        }
+
+        @media (max-width: 700px) {
+
+            .header {
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+
+            .page h1 {
+                font-size: 32px;
+            }
+
+            .contact-container {
+                flex-direction: column;
+            }
+
+            .contact-image {
+                width: 280px;
+                height: 230px;
+            }
+
+            .contact-box {
+                width: 85%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+
+        <h1 class="logo">🌱EcoTrak</h1>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="activities.html">Activities</a>
+            <a href="waste.html">Waste Guide</a>
+            <a href="tips.html">Green Tips</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+    </div>
+    <div class="page">
+
+        <h1>📞 Contact Us</h1>
+
+        <p>
+            Have a suggestion or question? Send us a message.
+        </p>
+
+
+        <div class="contact-container">
+
+            <!-- Contact Image -->
+            <img
+                class="contact-image"
+                src="./../image/Contact us-amico.png"
+                alt="Contact EcoTrak"
+            >
+
+            <div class="contact-box">
+
+                <h2>🌱 EcoTrak Team</h2>
+
+                <p>📧 Email: ecotrak@example.com</p>
+
+                <p>📱 Phone: +91 98765 43210</p>
+
+                <p>📍 Location: Maharashtra, India</p>
+
+
+                <form>
+
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                    >
+
+                    <textarea
+                        rows="5"
+                        placeholder="Enter your message"
+                    ></textarea>
+
+                    <br>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+
+        <p>© 2026 EcoTrak | Save Earth 🌍</p>
+
+    </div>
+
+</body>
+</html>
