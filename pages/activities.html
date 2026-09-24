@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>EcoTrak - Activities</title>
+    <link rel="stylesheet" href="./../style.css">
+
+    <style>
+
+        .page {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .page h1 {
+            color: #176b3a;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .page > p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .activity-box {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 35px;
+        }
+
+
+        .activity {
+            width: 230px;
+            padding: 20px;
+
+            background-color: white;
+
+            border-radius: 15px;
+
+            box-shadow: 0 3px 10px #ccc;
+
+            transition: 0.3s;
+        }
+
+
+        .activity:hover {
+            transform: translateY(-8px);
+        }
+
+        .activity img {
+            width: 150px;
+            height: 120px;
+
+            object-fit: contain;
+
+            margin-bottom: 10px;
+        }
+
+
+        .activity h2 {
+            color: #176b3a;
+            margin-bottom: 10px;
+        }
+
+
+        .activity p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+
+        .activity a {
+            display: inline-block;
+
+            margin-top: 10px;
+
+            color: #176b3a;
+
+            text-decoration: none;
+
+            font-weight: bold;
+        }
+
+
+        .activity a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+
+            .page {
+                padding: 40px 20px;
+            }
+
+            .page h1 {
+                font-size: 30px;
+            }
+
+            .activity {
+                width: 90%;
+            }
+
+            .activity img {
+                width: 140px;
+                height: 110px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="header">
+
+        <h1 class="logo">🌱EcoTrak</h1>
+
+        <nav>
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="activities.html" class="active">
+                Activities
+            </a>
+
+            <a href="waste.html">
+                Waste Guide
+            </a>
+
+            <a href="tips.html">
+                Green Tips
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </div>
+
+
+
+    <div class="page">
+
+        <h1>🌱 Eco-Friendly Activities</h1>
+
+        <p>
+            Take small steps every day to protect our environment.
+            Choose activities that help save natural resources.
+        </p>
+
+
+
+        <div class="activity-box">
+            <div class="activity">
+
+                <img
+                src="./../image/bamboo tree-bro.png"
+                alt="Plant Trees">
+
+                <h2>🌳 Plant Trees</h2>
+
+                <p>
+                    Plant trees and help increase green spaces.
+                </p>
+
+                <a href="#">
+                    Learn More
+                </a>
+
+            </div>
+
+            <div class="activity">
+
+                <img
+                src="./../image/Reforestation-bro.png"
+                alt="Cycling">
+
+                <h2>🚲 Cycle</h2>
+
+                <p>
+                    Use bicycles for short distances and
+                    reduce pollution.
+                </p>
+
+                <a href="#">
+                    Learn More
+                </a>
+
+            </div>
+
+            <div class="activity">
+
+                <img
+                src="./../image/water-saving-concept-illustration.avif"
+                alt="Save Water">
+
+                <h2>💧 Save Water</h2>
+
+                <p>
+                    Turn off taps and avoid unnecessary
+                    water wastage.
+                </p>
+
+                <a href="#">
+                    Learn More
+                </a>
+
+            </div>
+
+            <div class="activity">
+
+                <img
+                src="./../image/Recycling-bro.png"
+                alt="Recycling">
+
+                <h2>♻️ Recycle</h2>
+
+                <p>
+                    Reuse and recycle materials whenever
+                    possible.
+                </p>
+
+                <a href="#">
+                    Learn More
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <p>
+            © 2026 EcoTrak | Save Earth 🌍
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>
