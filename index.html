@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoTrak</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .home {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 60px 8%;
+            min-height: 480px;
+        }
+
+        .content {
+            width: 50%;
+        }
+
+        .content h1 {
+            color: #176b3a;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #444;
+        }
+
+        .button {
+            display: inline-block;
+
+            background-color: #176b3a;
+            color: white;
+
+            text-decoration: none;
+
+            padding: 13px 28px;
+
+            border-radius: 25px;
+
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #0d4525;
+        }
+
+        .home-image {
+            width: 45%;
+            text-align: center;
+        }
+
+        .home-image img {
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+
+            gap: 25px;
+
+            padding: 40px 8%;
+        }
+
+        .card {
+            background-color: white;
+
+            width: 250px;
+
+            padding: 25px;
+
+            text-align: center;
+
+            border-radius: 15px;
+
+            box-shadow: 0 3px 12px #ccc;
+
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            color: #176b3a;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        .footer {
+            background-color: #176b3a;
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+
+            margin-top: 40px;
+        }
+
+        @media (max-width: 750px) {
+
+            .header {
+                padding: 18px 5%;
+            }
+
+            nav {
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 14px;
+            }
+
+            .home {
+                padding: 50px 5%;
+            }
+
+            .content h1 {
+                font-size: 35px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+
+            .home-image img {
+                max-width: 300px;
+            }
+
+            .cards {
+                gap: 15px;
+                padding: 25px 5%;
+            }
+
+            .card {
+                width: 30%;
+                padding: 20px 10px;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .header {
+                flex-direction: column;
+                gap: 15px;
+
+                padding: 20px 10px;
+            }
+
+            .logo {
+                font-size: 23px;
+            }
+
+            nav {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 13px;
+            }
+
+
+            .home {
+                flex-direction: column;
+
+                text-align: center;
+
+                padding: 40px 20px;
+
+                gap: 25px;
+            }
+
+            .content {
+                width: 100%;
+            }
+
+            .content h1 {
+                font-size: 32px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+
+            .home-image {
+                width: 100%;
+            }
+
+            .home-image img {
+                width: 85%;
+            }
+
+
+            .cards {
+                flex-direction: column;
+                align-items: center;
+
+                padding: 20px;
+            }
+
+            .card {
+                width: 90%;
+            }
+
+            .footer {
+                font-size: 14px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1 class="logo">🌱 EcoTrak</h1>
+
+        <nav>
+
+            <a href="index.html" class="active">Home</a>
+
+            <a href="./pages/activities.html">
+                Activities
+            </a>
+
+            <a href="./pages/waste.html">
+                Waste Guide
+            </a>
+
+            <a href="./pages/tips.html">
+                Green Tips
+            </a>
+
+            <a href="./pages/contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </div>
+
+    <div class="home">
+
+        <div class="content">
+
+            <h1>
+                Make Our Planet Green 🌍
+            </h1>
+
+            <p>
+                EcoTrak is a simple responsive website that helps
+                users track daily eco-friendly activities,
+                understand waste management, and follow
+                green tips for protecting our environment.
+            </p>
+
+            <a href="./pages/activities.html" class="button">
+                Start Journey 🌱
+            </a>
+
+        </div>
+
+        <div class="home-image">
+
+            <img
+            src="./image/Environmental audit-bro.png"
+            alt="Environment Illustration">
+
+        </div>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <img
+            src="./image/bamboo tree-bro.png"
+            alt="Trees">
+
+            <h2>🌳 25</h2>
+
+            <p>
+                Trees Planted
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img
+            src="./image/Recycling-bro.png"
+            alt="Recycling">
+
+            <h2>♻️ 120</h2>
+
+            <p>
+                Items Recycled
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img
+            src="./image/water-saving-concept-illustration.avif"
+            alt="Water Saving">
+
+            <h2>💧 850L</h2>
+
+            <p>
+                Water Saved
+            </p>
+
+        </div>
+
+    </div>
+    <div class="footer">
+
+        <p>
+            © 2026 EcoTrak | Save Earth 🌍
+        </p>
+
+    </div>
+
+
+</body>
+</html>
